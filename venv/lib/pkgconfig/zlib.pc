@@ -1,0 +1,13 @@
+prefix=/Users/jaideepkaler/python/venv
+exec_prefix=/Users/jaideepkaler/python/venv
+libdir=/Users/jaideepkaler/python/venv/lib
+sharedlibdir=/Users/jaideepkaler/python/venv/lib
+includedir=/Users/jaideepkaler/python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
